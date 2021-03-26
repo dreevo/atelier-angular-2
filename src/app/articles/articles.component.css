@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid grey;
+  width: 50%;
+}
+
+.container {
+  margin: 10px;
+}
+
+.titre {
+  margin-top: -20px;
+  background: white;
+  width: 300px;
+}

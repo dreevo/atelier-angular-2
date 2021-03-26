@@ -1,0 +1,10 @@
+<h1>{{ titre }}</h1>
+
+<div class="card" *ngFor="let article of listeArticles">
+  <div class="container" *ngIf="article.auteur != 'AhmedSaid'">
+    <p class="titre">Title {{ article.titre }}</p>
+    <p>Auteur {{ article.auteur }}</p>
+    <p>Date {{ article.date }}</p>
+    <p>Contenu {{ article.contenu }}</p>
+  </div>
+</div>

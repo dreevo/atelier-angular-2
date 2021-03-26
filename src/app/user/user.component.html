@@ -1,0 +1,13 @@
+<h1>{{ name }}</h1>
+<h1>{{ email }}</h1>
+
+<h1>{{ address }}</h1>
+
+<ul *ngIf="showHobbies">
+  <li *ngFor="let hobby of hobbies; let i = index">
+    {{ hobby }}
+    <button (click)="delete(i)">Supprimer</button>
+  </li>
+</ul>
+
+<button (click)="toggle()">{{ hobbiesButton }}</button>
